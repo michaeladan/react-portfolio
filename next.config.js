@@ -4,6 +4,11 @@ const nextConfig = {
   swcMinify: true,
 }
 
+const isProd = process.env.NODE_ENV === 'production'
+
 module.exports = {
-  basePath: '/react-portfolio',
+  assetPrefix: isProd ? '/react-portfolio/' : '',
+  images: {
+    unoptimized: true,
+  },
 }
