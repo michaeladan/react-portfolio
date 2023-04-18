@@ -122,7 +122,7 @@ export default function Home() {
           </div>
           <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
             <div className='basis-1/3 flex-1'>
-              <a href='https://michaeladan.github.io/react-portfolio/' target="_blank" rel="noopener noreferrer">
+              <a href='https://michaeladan.github.io/PersonalSite-CSS-Practice/' target="_blank" rel="noopener noreferrer">
                 <Image src={web1} alt="example-work" className='rounded-lg object-cover'
                   width={'100%'}
                   height={'100%'}
