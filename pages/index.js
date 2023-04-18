@@ -37,7 +37,8 @@ export default function Home() {
                   className='cursor-pointer text-2xl dark:text-gray-100' />
               </li>
               <li>
-                <a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8' href="Resume-Screenshot.png">
+                <a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8'
+                  href="resumeSS.png" target="_blank" rel="noopener noreferrer">
                   Resume
                 </a>
               </li>
@@ -45,15 +46,15 @@ export default function Home() {
           </nav>
           <div className=' text-center'>
             <h2 className='text-5xl py-2 text-teal-600 font-medium md:text-6xl'>Michael Adan</h2>
-            <h3 className='text-2xl py-2 md:text-3xl dark:text-gray-100'>Web Developer</h3>
+            <h3 className='text-2xl py-2 md:text-3xl dark:text-gray-100'>Full Stack Web Developer</h3>
             <p className='text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-white'>
               Turning designs and ideas into functional web pages. Where the world wide web can meet
               your business.
             </p>
           </div>
           <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-500'>
-            <a href="https://github.com/michaeladan"><AiFillGithub /></a>
-            <a href='https://www.linkedin.com/in/devmichaeladan/'><AiFillLinkedin /></a>
+            <a href="https://github.com/michaeladan" target="_blank" rel="noopener noreferrer"><AiFillGithub /></a>
+            <a href='https://www.linkedin.com/in/devmichaeladan/' target="_blank" rel="noopener noreferrer"><AiFillLinkedin /></a>
           </div>
           <div className='relative mx-auto my-8 bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-5 overflow-hidden md:h-96 md:w-96'>
             <Image src={selfie} alt="avatarPic" layout='fill' objectFit='cover' />
@@ -79,9 +80,9 @@ export default function Home() {
                 Stay up with the times.
               </p>
               <h4 className='py-4 text-teal-600'>Tools I use to make it happen</h4>
-              <p className='text-gray-800 py-1'>HTML</p>
-              <p className='text-gray-800 py-1'>CSS</p>
-              <p className='text-gray-800 py-1'>JavaScript</p>
+              <p className='text-gray-800 py-1'>React</p>
+              <p className='text-gray-800 py-1'>Express</p>
+              <p className='text-gray-800 py-1'>SQL/NoSQL</p>
             </div>
             <div className='bg-slate-50 text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white flex-1'>
               <Image src={design} width={100} height={100} alt="designpic" />
@@ -104,7 +105,7 @@ export default function Home() {
               <h4 className='py-4 text-teal-600'>Tools I use to make it happen</h4>
               <p className='text-gray-800 py-1'>GitHub</p>
               <p className='text-gray-800 py-1'>NPM</p>
-              <p className='text-gray-800 py-1'>React</p>
+              <p className='text-gray-800 py-1'>Node.js</p>
             </div>
           </div>
         </section>
@@ -121,40 +122,52 @@ export default function Home() {
           </div>
           <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
             <div className='basis-1/3 flex-1'>
-              <Image src={web1} alt="example-work" className='rounded-lg object-cover'
-                width={'100%'}
-                height={'100%'}
-                layout='responsive' />
+              <a href='https://michaeladan.github.io/react-portfolio/' target="_blank" rel="noopener noreferrer">
+                <Image src={web1} alt="example-work" className='rounded-lg object-cover'
+                  width={'100%'}
+                  height={'100%'}
+                  layout='responsive' />
+              </a>
             </div>
             <div className='basis-1/3 flex-1'>
-              <Image src={web2} alt="example-work" className='rounded-lg object-scale-down'
-                width={'100%'}
-                height={'100%'}
-                layout='responsive' />
+              <a href='https://michaeladan.github.io/TinDog-Bootstrap-practice/' target="_blank" rel="noopener noreferrer">
+                <Image src={web2} alt="example-work" className='rounded-lg object-scale-down'
+                  width={'100%'}
+                  height={'100%'}
+                  layout='responsive' />
+              </a>
             </div>
             <div className='basis-1/3 flex-1'>
-              <Image src={web3} alt="example-work" className='rounded-lg object-cover'
-                width={'100%'}
-                height={'100%'}
-                layout='responsive' />
+              <a href='https://michaeladan.github.io/tenzies-game/' target="_blank" rel="noopener noreferrer">
+                <Image src={web3} alt="example-work" className='rounded-lg object-cover'
+                  width={'100%'}
+                  height={'100%'}
+                  layout='responsive' />
+              </a>
             </div>
             <div className='basis-1/3 flex-1'>
-              <Image src={web4} alt="example-work" className='rounded-lg object-scale-down'
-                width={'100%'}
-                height={'100%'}
-                layout='responsive' />
+              <a href='https://michaeladan.github.io/DrumKit-JS-DOM/' target="_blank" rel="noopener noreferrer">
+                <Image src={web4} alt="example-work" className='rounded-lg object-scale-down'
+                  width={'100%'}
+                  height={'100%'}
+                  layout='responsive' />
+              </a>
             </div>
             <div className='basis-1/3 flex-1'>
-              <Image src={web5} alt="example-work" className='rounded-lg object-cover'
-                width={'100%'}
-                height={'100%'}
-                layout='responsive' />
+              <a href='https://michaeladan.github.io/csb-72kn5u/' target="_blank" rel="noopener noreferrer">
+                <Image src={web5} alt="example-work" className='rounded-lg object-cover'
+                  width={'100%'}
+                  height={'100%'}
+                  layout='responsive' />
+              </a>
             </div>
             <div className='basis-1/3 flex-1'>
-              <Image src={web6} alt="example-work" className='rounded-lg object-scale-down'
-                width={'100%'}
-                height={'100%'}
-                layout='responsive' />
+              <a href='https://michaeladan.github.io/csb-cllczl/' target="_blank" rel="noopener noreferrer">
+                <Image src={web6} alt="example-work" className='rounded-lg object-scale-down'
+                  width={'100%'}
+                  height={'100%'}
+                  layout='responsive' />
+              </a>
             </div>
           </div>
 
